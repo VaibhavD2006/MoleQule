@@ -1,0 +1,30 @@
+{
+  "base_smiles": "N[Pt](N)(Cl)Cl",
+  "ligand_substitutions": {
+    "ammine": ["methylamine", "ethylamine", "ethylenediamine", "diaminocyclohexane", "pyridine"],
+    "chloride": ["bromide", "iodide", "acetate", "hydroxide", "thiocyanate"],
+    "mixed": ["imidazole", "dimethylsulfoxide", "phosphine", "thiourea", "carbonate"]
+  },
+  "descriptor_weights": {
+    "energy_weight": 0.30,
+    "gap_weight": 0.35,
+    "dipole_weight": 0.35
+  },
+  "target_properties": {
+    "optimal_gap_range": [2.0, 3.5],
+    "optimal_dipole_range": [2.0, 5.0],
+    "energy_normalization": 26000,
+    "binding_affinity_target": -8.0
+  },
+  "drug_optimization": {
+    "lipophilicity_target": 2.0,
+    "molecular_weight_range": [200, 600],
+    "polar_surface_area_max": 140,
+    "rotatable_bonds_max": 10
+  },
+  "resistance_modifiers": {
+    "efflux_resistance_weight": 0.7,
+    "metabolic_stability_weight": 0.8,
+    "dna_repair_evasion_weight": 0.75
+  }
+} 

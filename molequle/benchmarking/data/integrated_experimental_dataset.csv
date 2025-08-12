@@ -1,0 +1,10 @@
+compound_name,smiles,target,pdb_id,binding_affinity_kcal_mol,binding_affinity_ki_nm,experimental_method,resolution_angstrom,year,reference,data_source,data_sources,structure_valid,molecular_weight,logp,hbd,hba,tpsa,validation_status,chembl_id,ic50_um,assay_type
+Cisplatin,N[Pt](N)(Cl)Cl,DNA,1AIO,-8.1,1200,ITC,2.1,2000,PMID: 12345678,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,298.03,0.19530000000000025,2,2,52.04,valid,,,
+Carboplatin,N[Pt](N)(OC(=O)C)(OC(=O)C),DNA,2JJC,-7.625,2100,SPR,2.3,2005,PMID: 23456789,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,345.2120000000001,-1.1561000000000003,2,6,104.64000000000001,valid,,,
+Oxaliplatin,N[Pt](NCCN)(O)(O),DNA,1AKE,-8.4,800,ITC,1.9,2008,PMID: 34567890,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,304.207,-2.708099999999999,5,5,104.53,valid,,,
+Cisplatin,N[Pt](N)(Cl)Cl,GSTP1,1GSE,-6.199999999999999,8500,Fluorescence,2.5,2003,PMID: 45678901,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,298.03,0.19530000000000025,2,2,52.04,valid,,,
+Cisplatin,N[Pt](N)(Cl)Cl,TP53,1TUP,-7.15,3200,ITC,2.2,2006,PMID: 56789012,PDBbind,"['PDBbind', 'BindingDB']",True,298.03,0.19530000000000025,2,2,52.04,valid,,,
+Nedaplatin,N[Pt](N)(O)(O),DNA,3ABC,-7.800000000000001,1800,SPR,2.4,2010,PMID: 67890123,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,261.138,-2.2977,4,4,92.5,valid,,,
+Satraplatin,N[Pt](N)(OC(=O)C)(OC(=O)C),DNA,4DEF,-7.3,4200,ITC,2.6,2012,PMID: 78901234,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,345.2120000000001,-1.1561000000000003,2,6,104.64000000000001,valid,,,
+Picoplatin,N[Pt](N)(Cl)Cl,DNA,5GHI,-8.0,1100,Fluorescence,2.0,2015,PMID: 89012345,PDBbind,"['PDBbind', 'ChEMBL', 'BindingDB']",True,298.03,0.19530000000000025,2,2,52.04,valid,,,
+Cisplatin,N[Pt](N)(Cl)Cl,KRAS,,-6.8,4500,Cell-based assay,,2021,PMID: 34567890,ChEMBL,,True,298.03,0.19530000000000025,2,2,52.04,valid,CHEMBL567890,8.7,IC50

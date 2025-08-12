@@ -1,0 +1,28 @@
+max_analogs: 200
+parallel_vqe: true
+save_intermediate: true
+output_format: "csv"
+log_level: "INFO"
+
+# Pipeline stages
+stages:
+  - analog_generation
+  - vqe_simulation
+  - qnn_prediction
+  - scoring_ranking
+
+# Resource management
+memory_limit: "8GB"
+timeout_per_molecule: 300  # seconds
+max_retries: 3
+
+# Output settings
+results_directory: "results"
+detailed_output: true
+create_visualizations: true
+
+# Quality control
+validation_enabled: true
+min_confidence_score: 0.5
+remove_duplicates: true
+similarity_threshold: 0.95 

@@ -1,0 +1,22 @@
+basis_set: "6-31G(d,p)"
+pt_basis_set: "LANL2DZ"
+optimization_method: "L-BFGS-B"
+convergence_threshold: 1e-6
+max_iterations: 1000
+
+# VQE specific settings
+vqe_optimizer: "COBYLA"
+max_vqe_iterations: 100
+vqe_tolerance: 1e-4
+
+# Molecular descriptor settings
+calculate_homo_lumo: true
+calculate_dipole: true
+calculate_electrostatic: true
+calculate_charges: true
+
+# Performance settings
+parallel_execution: true
+max_workers: 4
+cache_results: true
+cache_directory: "results/vqe_results" 

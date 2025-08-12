@@ -1,0 +1,26 @@
+1. Load biological contexts (cisplatin + pancreatic cancer)
+2. Generate molecular analogs from cisplatin base
+3. For each analog:
+   a. Run quantum VQE simulation → quantum descriptors
+   b. Predict binding affinity with QNN
+   c. Calculate final score (binding + resistance + toxicity)
+4. Rank all analogs by effectiveness
+5. Output top candidates to CSV
+
+
+Training Model Work Flow: 
+
+1. Load experimental training data
+2. Initialize QNN architecture
+3. Train quantum neural network
+4. Save trained model for future inference
+
+
+# Run inference (default mode)
+python main.py --mode inference --config configs/pipeline_config.yaml --output results/cisplatin_analogs.csv
+
+# Run training mode
+python main.py --mode training --log-level DEBUG
+
+# Custom output location
+python main.py --output results/my_results.csv

@@ -1,0 +1,10 @@
+target_name,category,description,pdb_id,resolution_angstrom,binding_sites,binding_affinity_range_min,binding_affinity_range_max
+DNA_Duplex,DNA_Targets,Cisplatin-DNA complexes,,2.1,"Guanine_N7,Adenine_N3",,
+Guanine_N7,DNA_Targets,Primary binding site,,,,-8.0,-6.0
+Adenine_N3,DNA_Targets,Secondary binding mechanism,,,,-7.0,-5.0
+GSTP1,Protein_Targets,Glutathione S-transferase,1GSE,2.8,"G-site,H-site",,
+KRAS_G12D,Protein_Targets,Mutant KRAS,4OBE,2.5,GTP-binding site,,
+TP53,Protein_Targets,Tumor suppressor,1TUP,2.9,DNA-binding domain,,
+BRCA2,Protein_Targets,DNA repair protein,1IYJ,3.2,DNA-binding region,,
+hERG,Safety_Targets,Cardiac safety,5VA1,2.7,Central cavity,,
+Human_Albumin,Safety_Targets,Protein binding,1AO6,2.5,Drug binding sites I and II,,

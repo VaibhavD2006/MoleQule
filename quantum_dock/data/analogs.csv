@@ -1,0 +1,5 @@
+analog_id,smiles,substitution_type,source
+cisplatin_base,N[Pt](N)(Cl)Cl,none,reference
+analog_001,N[Pt](NC)(Cl)Cl,ammine,generated
+analog_002,N[Pt](NCC)(Cl)Cl,ammine,generated
+analog_003,N[Pt](N)(Br)Br,chloride,generated 

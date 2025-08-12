@@ -1,0 +1,3 @@
+- SAAS Subscription for Big Pharma Companies
+- SDKIT for our Model that companies can use, implement, or Change
+- If we move from SaaS company to a theoretical drug discovery experimental company, companies can buy out our data into 

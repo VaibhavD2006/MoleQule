@@ -1,0 +1,11 @@
+{
+  "total_compounds": 9,
+  "total_targets": 4,
+  "total_compound_target_pairs": 36,
+  "compounds_with_clinical_data": 6,
+  "compounds_with_pdb_structures": 3,
+  "validation_summary": {
+    "valid_structures": 9,
+    "invalid_structures": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "features": [
+    [-26180.0, 2.65, 4.2],
+    [-26150.0, 2.58, 3.8],
+    [-26200.0, 2.72, 4.6],
+    [-26165.0, 2.61, 4.0],
+    [-26220.0, 2.78, 5.1],
+    [-26190.0, 2.63, 4.1],
+    [-26170.0, 2.55, 3.9],
+    [-26210.0, 2.69, 4.8],
+    [-26160.0, 2.52, 3.7],
+    [-26230.0, 2.81, 5.3],
+    [-26175.0, 2.67, 4.3],
+    [-26185.0, 2.71, 4.5],
+    [-26155.0, 2.59, 3.6],
+    [-26195.0, 2.74, 4.7],
+    [-26145.0, 2.48, 3.5],
+    [-26205.0, 2.76, 4.9],
+    [-26225.0, 2.83, 5.2],
+    [-26140.0, 2.46, 3.4],
+    [-26215.0, 2.79, 5.0],
+    [-26135.0, 2.44, 3.3]
+  ],
+  "labels": [
+    -8.2, -6.8, -8.7, -7.5, -9.8, -8.0, -7.2, -8.9, -6.9, -10.1,
+    -8.3, -8.5, -6.7, -8.6, -6.2, -8.8, -9.9, -6.0, -9.2, -5.8
+  ],
+  "metadata": {
+    "description": "Cisplatin analog training data based on literature IC50 values",
+    "feature_names": ["energy_hartree", "homo_lumo_gap_eV", "dipole_moment_debye"],
+    "label_description": "binding_affinity_kcal_mol",
+    "n_samples": 20,
+    "source": "Literature IC50 values converted to binding affinities using thermodynamic relationships",
+    "compounds": [
+      "cisplatin", "carboplatin", "oxaliplatin", "nedaplatin", "satraplatin",
+      "cisplatin_analog_1", "cisplatin_analog_2", "cisplatin_analog_3", 
+      "cisplatin_analog_4", "cisplatin_analog_5", "cisplatin_analog_6",
+      "cisplatin_analog_7", "cisplatin_analog_8", "cisplatin_analog_9",
+      "cisplatin_analog_10", "cisplatin_analog_11", "cisplatin_analog_12",
+      "cisplatin_analog_13", "cisplatin_analog_14", "cisplatin_analog_15"
+    ],
+    "conversion_formula": "binding_affinity = -1.36 * ln(IC50_microM)",
+    "temperature": "298K",
+    "target": "pancreatic_cancer_cells"
+  }
+} 

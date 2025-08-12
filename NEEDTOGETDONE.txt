@@ -1,0 +1,10 @@
+1 -- Download AutoDockVina for full integration so it actually runs through it rather than a simulation
+2 -- The QNN isn't learning from the experimental data, but instead it is using fixed algos --> Change this so that it uses dynamic algos
+3 -- Add Security and Compliance 
+    Current Issue: No security measures for pharmaceutical data
+    What You Need:
+        Data Encryption: At rest and in transit
+        User Authentication: Secure login system
+        Data Privacy: GDPR/CCPA compliance
+        Audit Logging: Track all data access and modifications
+        Backup Systems: Data protection and recovery

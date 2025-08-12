@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "generation_date": "2025-07-27T10:42:43.030864",
+    "total_compounds": 9,
+    "data_sources": [
+      "PDBbind",
+      "ChEMBL",
+      "BindingDB"
+    ],
+    "targets": [
+      "GSTP1",
+      "KRAS",
+      "DNA",
+      "TP53"
+    ],
+    "statistics": {
+      "total_compounds": 9,
+      "valid_structures": 9,
+      "invalid_structures": 0,
+      "binding_affinity_stats": {
+        "count": 9,
+        "mean": -7.486111111111111,
+        "std": 0.6554378425389391,
+        "min": -8.4,
+        "max": -6.199999999999999
+      },
+      "target_distribution": {
+        "DNA": 6,
+        "GSTP1": 1,
+        "TP53": 1,
+        "KRAS": 1
+      },
+      "data_source_distribution": {
+        "PDBbind": 8,
+        "ChEMBL": 8,
+        "BindingDB": 8
+      },
+      "molecular_properties": {
+        "molecular_weight": {
+          "mean": 305.10211111111107,
+          "std": 24.49790113660286,
+          "min": 261.138,
+          "max": 345.2120000000001
+        },
+        "logp": {
+          "mean": -0.7046111111111109,
+          "std": 1.1059829418459948,
+          "min": -2.708099999999999,
+          "max": 0.19530000000000025
+        }
+      }
+    }
+  },
+  "compounds": [
+    {
+      "compound_name": "Cisplatin",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "target": "DNA",
+      "pdb_id": "1AIO",
+      "binding_affinity_kcal_mol": -8.1,
+      "binding_affinity_ki_nm": 1200,
+      "experimental_method": "ITC",
+      "resolution_angstrom": 2.1,
+      "year": 2000,
+      "reference": "PMID: 12345678",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 298.03,
+      "logp": 0.19530000000000025,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 52.04,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Carboplatin",
+      "smiles": "N[Pt](N)(OC(=O)C)(OC(=O)C)",
+      "target": "DNA",
+      "pdb_id": "2JJC",
+      "binding_affinity_kcal_mol": -7.625,
+      "binding_affinity_ki_nm": 2100,
+      "experimental_method": "SPR",
+      "resolution_angstrom": 2.3,
+      "year": 2005,
+      "reference": "PMID: 23456789",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 345.2120000000001,
+      "logp": -1.1561000000000003,
+      "hbd": 2,
+      "hba": 6,
+      "tpsa": 104.64000000000001,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Oxaliplatin",
+      "smiles": "N[Pt](NCCN)(O)(O)",
+      "target": "DNA",
+      "pdb_id": "1AKE",
+      "binding_affinity_kcal_mol": -8.4,
+      "binding_affinity_ki_nm": 800,
+      "experimental_method": "ITC",
+      "resolution_angstrom": 1.9,
+      "year": 2008,
+      "reference": "PMID: 34567890",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 304.207,
+      "logp": -2.708099999999999,
+      "hbd": 5,
+      "hba": 5,
+      "tpsa": 104.53,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Cisplatin",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "target": "GSTP1",
+      "pdb_id": "1GSE",
+      "binding_affinity_kcal_mol": -6.199999999999999,
+      "binding_affinity_ki_nm": 8500,
+      "experimental_method": "Fluorescence",
+      "resolution_angstrom": 2.5,
+      "year": 2003,
+      "reference": "PMID: 45678901",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 298.03,
+      "logp": 0.19530000000000025,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 52.04,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Cisplatin",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "target": "TP53",
+      "pdb_id": "1TUP",
+      "binding_affinity_kcal_mol": -7.15,
+      "binding_affinity_ki_nm": 3200,
+      "experimental_method": "ITC",
+      "resolution_angstrom": 2.2,
+      "year": 2006,
+      "reference": "PMID: 56789012",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 298.03,
+      "logp": 0.19530000000000025,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 52.04,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Nedaplatin",
+      "smiles": "N[Pt](N)(O)(O)",
+      "target": "DNA",
+      "pdb_id": "3ABC",
+      "binding_affinity_kcal_mol": -7.800000000000001,
+      "binding_affinity_ki_nm": 1800,
+      "experimental_method": "SPR",
+      "resolution_angstrom": 2.4,
+      "year": 2010,
+      "reference": "PMID: 67890123",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 261.138,
+      "logp": -2.2977,
+      "hbd": 4,
+      "hba": 4,
+      "tpsa": 92.5,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Satraplatin",
+      "smiles": "N[Pt](N)(OC(=O)C)(OC(=O)C)",
+      "target": "DNA",
+      "pdb_id": "4DEF",
+      "binding_affinity_kcal_mol": -7.3,
+      "binding_affinity_ki_nm": 4200,
+      "experimental_method": "ITC",
+      "resolution_angstrom": 2.6,
+      "year": 2012,
+      "reference": "PMID: 78901234",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 345.2120000000001,
+      "logp": -1.1561000000000003,
+      "hbd": 2,
+      "hba": 6,
+      "tpsa": 104.64000000000001,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Picoplatin",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "target": "DNA",
+      "pdb_id": "5GHI",
+      "binding_affinity_kcal_mol": -8.0,
+      "binding_affinity_ki_nm": 1100,
+      "experimental_method": "Fluorescence",
+      "resolution_angstrom": 2.0,
+      "year": 2015,
+      "reference": "PMID: 89012345",
+      "data_source": "PDBbind",
+      "data_sources": [
+        "PDBbind",
+        "ChEMBL",
+        "BindingDB"
+      ],
+      "structure_valid": true,
+      "molecular_weight": 298.03,
+      "logp": 0.19530000000000025,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 52.04,
+      "validation_status": "valid"
+    },
+    {
+      "compound_name": "Cisplatin",
+      "smiles": "N[Pt](N)(Cl)Cl",
+      "target": "KRAS",
+      "chembl_id": "CHEMBL567890",
+      "binding_affinity_kcal_mol": -6.8,
+      "binding_affinity_ki_nm": 4500,
+      "ic50_um": 8.7,
+      "experimental_method": "Cell-based assay",
+      "assay_type": "IC50",
+      "year": 2021,
+      "reference": "PMID: 34567890",
+      "data_source": "ChEMBL",
+      "structure_valid": true,
+      "molecular_weight": 298.03,
+      "logp": 0.19530000000000025,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 52.04,
+      "validation_status": "valid"
+    }
+  ]
+}

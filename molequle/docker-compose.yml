@@ -1,0 +1,53 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    command: npm run dev
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./molequle.db
+      - ML_SERVICE_URL=http://ml_service:8001
+      - UPLOAD_DIR=uploads
+    volumes:
+      - ./backend:/app
+      - ./uploads:/app/uploads
+    depends_on:
+      - ml_service
+    command: python main.py
+
+  ml_service:
+    build: ./ml_service
+    ports:
+      - "8001:8001"
+    environment:
+      - ML_SERVICE_PORT=8001
+    volumes:
+      - ./ml_service:/app
+      - ./quantum_dock:/app/quantum_dock
+      - ./uploads:/app/uploads
+    command: python main.py
+
+  docking_service:
+    build: ./docking
+    ports:
+      - "8002:8002"
+    environment:
+      - DOCKING_SERVICE_PORT=8002
+    volumes:
+      - ./docking:/app
+    command: python main.py
+
+volumes:
+  uploads: 

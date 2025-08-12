@@ -1,0 +1,34 @@
+{
+  "environment_modifiers": {
+    "ph_modifier": 0.82,
+    "hypoxia_modifier": 0.85,
+    "stromal_barrier_modifier": 0.65,
+    "protein_binding_factor": 0.75,
+    "interstitial_pressure_modifier": 0.70
+  },
+  "resistance_factors": {
+    "gstp1_weight": 0.85,
+    "efflux_pump_weight": 0.70,
+    "dna_repair_weight": 0.75,
+    "autophagy_weight": 0.60,
+    "metabolic_reprogramming_weight": 0.65
+  },
+  "selectivity_targets": {
+    "kras_mutation": 0.90,
+    "p53_loss": 0.85,
+    "smad4_loss": 0.80,
+    "cdkn2a_loss": 0.75,
+    "brca_deficiency": 0.70
+  },
+  "pharmacokinetic_challenges": {
+    "poor_vascularization": 0.60,
+    "dense_stroma": 0.55,
+    "immune_suppression": 0.70,
+    "rapid_clearance": 0.75
+  },
+  "therapeutic_windows": {
+    "minimum_effective_concentration": 1.0,
+    "maximum_tolerated_dose": 10.0,
+    "selectivity_index_target": 5.0
+  }
+} 

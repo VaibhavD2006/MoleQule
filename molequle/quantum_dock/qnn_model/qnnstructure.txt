@@ -1,0 +1,17 @@
+QNN Structure:
+├── Input Layer: 8 molecular descriptors
+├── Quantum Circuit: 12 qubits, 6 layers
+├── Entanglement: Circular CNOT gates
+├── Output Heads: 6 drug properties
+└── Measurement: Pauli-Z operators
+
+feature_names = [
+    'energy',           # Ground state energy (Hartree)
+    'homo_lumo_gap',   # HOMO-LUMO gap (eV)
+    'dipole_moment',   # Dipole moment (Debye)
+    'molecular_weight', # Molecular weight (g/mol)
+    'logp',            # Octanol-water partition coefficient
+    'tpsa',            # Topological polar surface area (Å²)
+    'rotatable_bonds', # Number of rotatable bonds
+    'aromatic_rings'   # Number of aromatic rings
+]

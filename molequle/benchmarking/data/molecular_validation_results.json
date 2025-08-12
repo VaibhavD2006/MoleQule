@@ -1,0 +1,74 @@
+{
+  "Cisplatin": {
+    "valid": true,
+    "molecular_weight": 298.03,
+    "logp": 0.19530000000000025,
+    "hbd": 2,
+    "hba": 2,
+    "3d_generated": true
+  },
+  "Carboplatin": {
+    "valid": true,
+    "molecular_weight": 345.2120000000001,
+    "logp": -1.1561000000000003,
+    "hbd": 2,
+    "hba": 6,
+    "3d_generated": true
+  },
+  "Oxaliplatin": {
+    "valid": true,
+    "molecular_weight": 304.207,
+    "logp": -2.708099999999999,
+    "hbd": 5,
+    "hba": 5,
+    "3d_generated": true
+  },
+  "Nedaplatin": {
+    "valid": true,
+    "molecular_weight": 261.138,
+    "logp": -2.2977,
+    "hbd": 4,
+    "hba": 4,
+    "3d_generated": true
+  },
+  "Satraplatin": {
+    "valid": true,
+    "molecular_weight": 345.2120000000001,
+    "logp": -1.1561000000000003,
+    "hbd": 2,
+    "hba": 6,
+    "3d_generated": true
+  },
+  "Picoplatin": {
+    "valid": true,
+    "molecular_weight": 298.03,
+    "logp": 0.19530000000000025,
+    "hbd": 2,
+    "hba": 2,
+    "3d_generated": true
+  },
+  "Phenanthriplatin": {
+    "valid": true,
+    "molecular_weight": 298.03,
+    "logp": 0.19530000000000025,
+    "hbd": 2,
+    "hba": 2,
+    "3d_generated": true
+  },
+  "Kiteplatin": {
+    "valid": true,
+    "molecular_weight": 298.03,
+    "logp": 0.19530000000000025,
+    "hbd": 2,
+    "hba": 2,
+    "3d_generated": true
+  },
+  "Lipoplatin": {
+    "valid": true,
+    "molecular_weight": 298.03,
+    "logp": 0.19530000000000025,
+    "hbd": 2,
+    "hba": 2,
+    "3d_generated": true
+  }
+}

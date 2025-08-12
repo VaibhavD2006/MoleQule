@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+numpy
+scipy
+biopython
+rdkit
+py3Dmol
+pennylane 

@@ -1,0 +1,37 @@
+{
+  "total_compounds": 9,
+  "valid_structures": 9,
+  "invalid_structures": 0,
+  "binding_affinity_stats": {
+    "count": 9,
+    "mean": -7.486111111111111,
+    "std": 0.6554378425389391,
+    "min": -8.4,
+    "max": -6.199999999999999
+  },
+  "target_distribution": {
+    "DNA": 6,
+    "GSTP1": 1,
+    "TP53": 1,
+    "KRAS": 1
+  },
+  "data_source_distribution": {
+    "PDBbind": 8,
+    "ChEMBL": 8,
+    "BindingDB": 8
+  },
+  "molecular_properties": {
+    "molecular_weight": {
+      "mean": 305.10211111111107,
+      "std": 24.49790113660286,
+      "min": 261.138,
+      "max": 345.2120000000001
+    },
+    "logp": {
+      "mean": -0.7046111111111109,
+      "std": 1.1059829418459948,
+      "min": -2.708099999999999,
+      "max": 0.19530000000000025
+    }
+  }
+}
